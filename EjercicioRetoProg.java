@@ -70,7 +70,7 @@ public class EjercicioRetoProg {
             "     3-Terror Espacial\r\n" + //
             "     4-Drama Coreano");
 
-   for (int cont = 0; cont < 2; cont++) {
+   for (int cont = 0; cont < 100; cont++) {
       System.out.println("Introduzca su elección: ");
       int opcion = Integer.parseInt(teclado.nextLine());
       switch (opcion) {
